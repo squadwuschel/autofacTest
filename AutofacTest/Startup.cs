@@ -37,7 +37,7 @@ namespace Squad.AutofacTest
         /// </summary>
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            //Standard Registrations für Interfaces und Klassen
+            //when using this binding it works.
             //builder.RegisterType<TodoModelBuilder>().As<ITodoModelBuilder>();
 
             var applicationAssemblies = LoadApplicationAssemblies("squad.");
